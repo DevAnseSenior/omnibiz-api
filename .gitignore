@@ -3,6 +3,7 @@
 /venv
 /export
 db.sqlite3
+.env
 
 # generated archives
 # tags_geradas.txt
