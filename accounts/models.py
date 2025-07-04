@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser, Permission
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, Permission
 
 from companies.models import Enterprise
 
