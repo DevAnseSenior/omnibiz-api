@@ -47,7 +47,12 @@ INSTALLED_APPS = [
     # Rest Framework
     'rest_framework',
 
-    "corsheaders",
+    # CORS headers
+    'corsheaders',
+
+    # Apps
+    'accounts',
+    'companies',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +126,8 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+AUTH_USER_MODEL = 'accounts.User'
 
 
 # Internationalization
